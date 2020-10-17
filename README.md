@@ -4,11 +4,11 @@
 (Picture from ActiveState.com)
 
 ### Contributors: 
-Phara Dorisca (https://github.com/pdorisca), Khulika Rojanakanoksak (https://github.com/Khulikaroj), Femi Aina (https://github.com/Femi-tech) ,Ogo Nwanyanwu (https://github.com/Ogo1024)
+Phara Dorisca (https://github.com/pdorisca), Khulika Rojanakanoksak (https://github.com/Khulikaroj), Femi Aina (https://github.com/Femi-tech), Ogo Nwanyanwu (https://github.com/Ogo1024)
 
-For this project, our goal was to build a robo-trading agent that executed trading decicions and tactical entries from a Machine Learning derived strategy. Our data collection and cleaning focused on 3 main data types (Fundamental, Technical, and Sentiment) to produce feature inputs we believe are relevant for stock investment. In each component, we pre-processed the data to produce buy/sell signals based on the represent indicators, utilzing the resultant outputs to train our ML model to generate trading decisions (Fundamental, Technical) and tactical entries (Sentiment). The robo-trading agent elevated our ability to trade all components of DJ 30 efficiently, by eliminating emotion from determining strategy and implementing a faster decision making process. 
+For this project, our goal was to build a robo-trading agent that executed trading decicions and tactical entries from a Machine Learning derived strategy. Our data collection and cleaning focused on 3 main data types (Fundamental, Technical, and Sentiment) to produce feature inputs we believe are relevant for stock investment. In each component, we pre-processed the data to produce buy/sell signals based on the represent indicators, utilzing the resultant outputs to train our ML model to generate trading decisions (Fundamental, Technical) and tactical entries (Sentiment). The robo-trading agent elevated our ability to trade all components of Dow Jones 30 Index efficiently, by eliminating emotion from determining strategy and implementing a faster decision making process. 
 
-DJ 30 are AXP, AMGN, AAPL, BA, CAT, CSCO, CVX, GS, HD, HON, IBM, INTC, JNJ, KO, JPM, MCD, MMM, MRK, MSFT, NKE, PG, TRV, UNH, CRM, VZ, V, WBA, WMT, DIS, DOW
+Components of the Dow Jones 30 Index are as follows: AXP, AMGN, AAPL, BA, CAT, CSCO, CVX, GS, HD, HON, IBM, INTC, JNJ, KO, JPM, MCD, MMM, MRK, MSFT, NKE, PG, TRV, UNH, CRM, VZ, V, WBA, WMT, DIS, DOW
 
 Machine Learning method: Random Forest. 
 
@@ -29,12 +29,12 @@ Machine Learning method: Random Forest.
 
 ## Features for ML
 
-We build signal data  from 3 main components which are..
-1. Fundamental: ROE, Operation margin, Debt-to-Equity ratio, and Pietroski F-score.
+We generated the signal data from 3 main components:
+1. Fundamental: Return on Equity, Operating Margin, Debt-to-Equity ratio, and Pietroski F-score.
 2. Technical: Relative Strength Index (RSI).
 3. Sentiment: News relevant to company name
 
-Sources of these data are Yahoo Finance and News API.
+Sources of these data are Yahoo Finance, News API, SimFin.
 
 However, we can pull News API by just 1 month. With this limitation, we build two different set of data...
 
