@@ -64,9 +64,9 @@ Short-Horizon Model:  all 3 main features will be included in the ML model. We s
 
 ## Conclusions
 
-* In using Fundamental and Technical signals in predicting days with positive return of particular stock, the ML perform well for most of stocks in DJ30. However, the model is unlikely fit for predicting timing to buy AMGN and JNJ.
+* In using Fundamental and Technical signals in predicting days with positive return of particular stock, the ML perform well for most of stocks in DJ30. However, the model is unlikely fit for predicting timing to buy JNJ and JPM when adding Sentiment signal.
 
-* Adding Sentiment signals increase prediction power for most stocks in DJ30 list, higher accuracy score, higher precision score, and higher recall score. However, this better prediction power could arrive from using more recent features than Long-Horizon model. However, contrast evidence is seen in prediction for JPM.
+* Adding Sentiment signals increase prediction power for most stocks in DJ30 list, higher accuracy score, higher precision score, and higher recall score. However, this better prediction power could arrive from using more recent features than Long-Horizon model. However, contrast evidence is seen in prediction for JNJ and JPM.
 
 * Using ML to predict timing to enter/exit stock trading strategy should be done with caution. Further works needed for improving this project could be (1) using RNN model which fit better for time-series data (2) better pre-processing of fundamental data to account for sector normilzation, potentially accounting for variability between stocks from different sectors (APPL/MSFT vs AMGN/JNJ) and/or (3) expanding sentiment signal data by web scrapping news or paid-account for News API. 
 
@@ -96,7 +96,11 @@ ML result on JNJ
 
 ![JNJ-short](JNJ-short.PNG)
 
+ML result on JPM
 
+![JPM-long](JPM-long.PNG)
+
+![JPM-short](JPM-short.PNG)
 
 
 
