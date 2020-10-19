@@ -1,6 +1,6 @@
 # DJ 30 Trading BOT
 
-![Head](Head.PNG)
+![Head](Images/Head.PNG)
 (Picture from ActiveState.com)
 
 ### Contributors: 
@@ -74,33 +74,48 @@ Short-Horizon Model:  all 3 main features will be included in the ML model. We s
 
 ML result on AAPL
 
-![AAPL-long](AAPL-long.PNG)
+![AAPL-long](Images/AAPL-long.PNG)
 
-![AAPL-short](AAPL-short.PNG)
+![AAPL-short](Images/AAPL-short.PNG)
 
 ML result on MSFT
 
-![MSFT-long](MSFT-long.PNG)
+![MSFT-long](Images/MSFT-long.PNG)
 
-![MSFT-short](MSFT-short.PNG)
+![MSFT-short](Images/MSFT-short.PNG)
 
 ML result on AMGN
 
-![AMGN-long](AMGN-long.PNG)
+![AMGN-long](Images/AMGN-long.PNG)
 
-![AMGN-short](AMGN-short.PNG)
+![AMGN-short](Images/AMGN-short.PNG)
 
 ML result on JNJ
 
-![JNJ-long](JNJ-long.PNG)
+![JNJ-long](Images/JNJ-long.PNG)
 
-![JNJ-short](JNJ-short.PNG)
+![JNJ-short](Images/JNJ-short.PNG)
 
 ML result on JPM
 
-![JPM-long](JPM-long.PNG)
+![JPM-long](Images/JPM-long.PNG)
 
-![JPM-short](JPM-short.PNG)
+![JPM-short](Images/JPM-short.PNG)
 
+## BOT
+
+We create algorithm trading by EC2 (AWS) and link to Alpaca paper trade account. In this part, trading decision is based on technicla signal only.
+
+Algo cide connecting to EC2 AWS.
+
+![EC2](Images/Algo-code-connection-to-EC2.PNG)
+
+Code testint in terminal
+
+![Termonal](Images/Terminal-test.PNG)
+
+Alpaca paper trade account.
+
+![Alpaca](Images/Alpaca-Trade-Paper-Account-order-placed-test.PNG)
 
 
